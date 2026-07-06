@@ -90,3 +90,4 @@ ros2 launch lio_sam run.launch.py
 ```
 
 Note: needs a real Ubuntu 22.04 + ROS 2 Humble + Gazebo machine (ideally with GPU) — won't run in this sandbox.o-slam-3D-environment-
+ros2 run nav2_map_server map_saver_cli -f ~/maps/my_map     ros2 launch slam_toolbox online_async_launch.py
